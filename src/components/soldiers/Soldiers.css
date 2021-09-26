@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    margin: 20px 40px;
+    justify-content: space-evenly;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.cart{
+    background-color:#f9f4ef;
+    margin-top: 10px;
+    color: #001858;
+    line-height: 25px;
+    padding-left:10px ;
+    width: 20%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    border: 1px solid #001858;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    line-height: 40px;
+    text-align: center;;
+    background-color: #8bd3dd;
+    color:#001858;
+    padding: 10px 0;
+    box-shadow: 2px 2px 6px gray;
+}
+nav h1 ,h2{
+    font-size: 35px;
+    text-shadow: 2px 2px #f9f4ef;
+    transition: .5s;
+}
+nav h1:hover{
+    text-shadow: 2px 2px teal;
+}

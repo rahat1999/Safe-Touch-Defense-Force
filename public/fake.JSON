@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Admiral Shaine Iqbal",
+        "salary": 74000,
+        "rank": "Chifw of Naval Staff",
+        "skill": "Technology Skills",
+        "age": 42,
+        "img": "https://www.navy.mil.bd/public/chief_about_gallery/3156aea06e3d7c9ce4a26afb78b6a417.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Abu Belal Muhammad",
+        "salary": 62500,
+        "rank": "Second lieutenant colonel",
+        "skill": "Perform Under to Pressure",
+        "age": 50,
+        "img": "https://lh3.googleusercontent.com/HBfV6PxkyYKm9Oj0Hk7hoO7-c06ClMvuMImD7cmwhK6nR03blq3Ok-TjNN8LSNppQX5f=s85"
+    },
+    {
+        "id": 3,
+        "name": "Ahanaf Hossain Anik ",
+        "salary": 55000,
+        "rank": "Pera Comando",
+        "skill": "Sniper",
+        "age": 48,
+        "img": "https://lh3.googleusercontent.com/F4lAigkn50DZG1IRg_-KYUVGUR4F5Auei2vwApXsQhGgEykVWaAkgbiWrkob431vxqgl=s85"
+    },
+    {
+        "id": 4,
+        "name": "Robiul Islam",
+        "salary": 60500,
+        "rank": "Air Vice-Marshal",
+        "skill": "Leadership",
+        "age": 46,
+        "img": "https://lh3.googleusercontent.com/hFIFKOkqmo_0jAmQxPFf-Wp7uecoLaljK-Zlv8Vp8w2Ov2GgTthJOz4Cc3nU2ldUDTqqVw=s85"
+    },
+    {
+        "id": 5,
+        "name": "Mashud Hasan",
+        "salary": 70299,
+        "rank": "General/flag officers",
+        "skill": "Assault ",
+        "age": 30,
+        "img": "https://lh3.googleusercontent.com/b_Rxp0CLVLte3UkqWNhZNylcM6HKo4ch7YHhpD2AzvQRVz3mJtvLgmprX53W339brZF1wSI=s128"
+    },
+    {
+        "id": 6,
+        "name": "Sadek Alom J",
+        "salary": 70500,
+        "rank": "\tRear Admiral",
+        "skill": "IT Inatligence",
+        "age": 43,
+        "img": "https://lh3.googleusercontent.com/Te_nQpU4JTcI5x1OQCElfFo8lgz3j6kEQ_ynzY_OWlJk7Ofx8SjsbRWnOtagARSkEODX9g=s128"
+    },
+    {
+        "id": 7,
+        "name": "Hemeal Khan",
+        "salary": 59900,
+        "rank": "Mejor",
+        "skill": "Finaincial Manager",
+        "age": 52,
+        "img": "https://lh3.googleusercontent.com/6G8a0Ef-tokGzoInm02QMn4g1k0rhc4CL9PW4V8Ym4KDjYVbmEpH-CitHhwVtlPZ9f5pxg=s85"
+    },
+    {
+        "id": 8,
+        "name": "Aliya Bhaat ",
+        "salary": 66599,
+        "rank": "Brigadier general",
+        "skill": "Field Commender",
+        "age": 28,
+        "img": "https://i.pinimg.com/736x/db/b1/72/dbb172f182c4146dbddc2fbd17263b0c--military-women-the-military.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Brig Gen Abul Mansur",
+        "salary": 85599,
+        "rank": "Pera Comando",
+        "skill": "ndc, psc Director",
+        "age": 30,
+        "img": "https://lh3.googleusercontent.com/831ovdRWlClbSdUvmL-mlXRuSDwC43ZDeSJEchGtd4lWHUX72Rosl8Bg2A374o9LW4TFow=s85"
+    }
+]

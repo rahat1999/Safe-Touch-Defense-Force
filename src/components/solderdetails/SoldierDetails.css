@@ -1,0 +1,35 @@
+.soldier-details{
+    color: #172c66;
+    background-color:#f9f4ef;
+    text-align: center;
+    padding: 10px;
+    box-shadow:1px 1px 5px gray;
+    border-radius: 10px;
+    border: 1px solid #001858;
+}
+button{
+    border: 1px solid #8bd3dd;
+    margin-top: 15px;
+    width: 140px;
+    height: 25px;
+    transition: .7s;
+    border-radius: 5px;
+    color: #fffffe;
+    background-color: #272343;
+    
+}
+button:hover{
+    background-color: #8bd3dd;
+    color: #fffffe;
+}
+img{
+   margin-bottom:15px ;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   transition: .5s;
+   box-shadow:1px 3px 1px gray;
+}
+img:hover{
+    box-shadow: 5px 5px 5px gray;
+}
