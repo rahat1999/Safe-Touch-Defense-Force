@@ -17,7 +17,7 @@ const SoldierDetails = (props) => {
                 <p><b>Age:</b> {age}</p>
             </div>
             <button onClick={() => props.handleButton(props.soldier)}
-            ><i className="fab fa-hive"></i> Hire Now</button>
+            ><i className="fab fa-hire-a-helper"></i> Hire Now</button>
         </div>
     );
 };

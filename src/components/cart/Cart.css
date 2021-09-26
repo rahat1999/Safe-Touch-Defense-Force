@@ -1,0 +1,18 @@
+.single-person-cart{
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    margin-bottom:3px;
+    box-shadow: 1px 1px 3px 0 gray;
+    margin-top: 10px;
+}
+.person-img img{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.person-img img:hover{
+    transform: none;
+    box-shadow: none;
+}

@@ -1,9 +1,9 @@
 .soldier-details{
     color: #172c66;
     /* background-color:#8bd3dd; */
-    background-color: #f9f4efd7;
+    background-color: #f9f4efce;
     text-align: center;
-    padding: 10px;
+    padding:16px 10px 10px 10px;
     box-shadow:1px 1px 5px gray;
     border-radius: 10px;
     border: 1px solid #001858;
@@ -25,8 +25,8 @@ button{
 }
 button:hover{
     transform: scale(1.1);
-    background-color: #8bd3dd;
-    color: #272343;
+    background-color: #ff8906;
+    color: #fffffe;
 }
 /* .images{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
@@ -37,9 +37,9 @@ button:hover{
    width: 100px;
    border-radius: 50%;
    transition: .5s;
-   box-shadow:3px 3px 1px gray;
+   box-shadow: 0px 3px 3px 0 gray;
 }
 img:hover{
     transform: scale(1.1);
-    box-shadow: 5px 5px 10px gray;
+    box-shadow:4px 5px 7px 0 gray;
 }

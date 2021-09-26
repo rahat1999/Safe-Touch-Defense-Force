@@ -8,13 +8,22 @@
     padding: 10px 0;
     box-shadow: 2px 2px 6px gray;
 }
+.force-name{
+    color: #ff8906;
+    text-shadow: 1px -2px white;
+    transition: .7s;
+}
+.force-name:hover{
+    color: #f25042;
+    text-shadow:-1px 1px white;
+}
 .header-title h1{
     font-size: 35px;
-    text-shadow: 2px -1px teal;
+    text-shadow: 2px -1px #8c7851;
     transition: .5s;
 }
 .header-title h1:hover{
-    text-shadow: 2px 2px olivedrab;
+    text-shadow: 2px 2px teal;
 }
 .header-title h2{
     text-shadow: -1px -1px #026666;

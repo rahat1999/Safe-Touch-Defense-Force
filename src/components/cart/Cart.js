@@ -1,11 +1,15 @@
 import React from 'react';
+import './Cart.css'
 
 const Cart = (props) => {
-    const { name } = props.cart
+    const { name, img } = props.cart
 
     return (
-        <div>
-            <li>{name} <i style={{ color: 'green' }} class="fas fa-check-circle"></i></li>
+        <div className="single-person-cart">
+            <div className="person-img">
+                <img src={img} alt="person" />
+            </div>
+            <p style={{ margin: "0px" }}>◉<b>{name}</b><i style={{ color: 'green' }} className="fas fa-check-circle"></i></p>
         </div>
     );
 };

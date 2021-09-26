@@ -38,15 +38,23 @@ const Soldiers = () => {
                 }
             </div>
             {/* Add items cart */}
-            <div className='cart'>
-                <h3>
-                    <i className="fas fa-cart-plus"></i> Cart Summary</h3>
-                <p><b><i className="fas fa-user"></i> Soldiers Added: {displayCart.length}</b></p>
-                <p><b><i className="fas fa-money-bill-alt"></i> Tota Payment: {total}</b></p>
+            <div className='cart-container'>
+                <div className='cart'>
+                    <h3><i className="fas fa-users"></i> Your Soldiers</h3>
+                    <p><b>
+                        <i className="fas fa-user"></i> Soldiers Added: {displayCart.length}
+                    </b></p>
+                    <p><b>
+                        <i className="fas fa-money-bill-alt"></i> Tota Payment: {total}
+                    </b></p>
+                    <p style={{ textAlign: 'center', color: "#ff8906" }}>
+                        <i className="fas fa-arrow-circle-down"></i>
+                    </p>
 
-                {
-                    displayCart.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
-                }
+                    {
+                        displayCart.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
+                    }
+                </div>
             </div>
         </div>
     );

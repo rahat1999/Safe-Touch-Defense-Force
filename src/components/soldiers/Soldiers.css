@@ -1,8 +1,8 @@
 .container{
-    padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
     background-image: url('./bg02.jpg');
+    /* background-position: top; */
     background-size: cover;
     background-attachment: fixed;
 }
@@ -13,17 +13,21 @@
     justify-content: space-around;
     padding: 10px 0;
 }
-.cart{
-    background-color:#f9f4efdc;
-    margin-top: 10px;
-    color: #001858;
-    line-height: 25px;
-    padding-left:10px ;
+.cart-container{
     width: 20%;
     height: 100%;
+    margin-top: 10px;
+}
+.cart{
+    width: 20%;
+    position: fixed;
+    background-color:#f9f4efd3;
+    color: #001858;
+    line-height: 25px;
+    padding:0 7px 10px 7px ;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px gray;
-    /* border: 1px solid #001858; */
+    box-shadow: 2px 2px 4px gray;
+    border: 1px solid #001858;
 }
 .cart h3{
     text-align:center; 
