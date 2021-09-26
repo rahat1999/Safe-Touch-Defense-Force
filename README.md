@@ -2,7 +2,6 @@
 
 This project creat by vanilla-CSS with react.js [Safe Touch Defense Force](https://jolly-einstein-642dff.netlify.app).
 
-* This is a Bangladeshi Super Soldiers Website.
+* This is a Safe Touch Defense Force Website.
 * There are NINE higher Rank Soldiers data in this project.
-* I also add user Button click total count.. That's show in the cart.
-* And i also show the selected Soldiers total Salary in the cart.
+* I Add a user Button if You click Button you will see  your total click Number also show the selected Soldiers and their total Salary in the cart
