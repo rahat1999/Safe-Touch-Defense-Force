@@ -24,3 +24,9 @@
     box-shadow: 2px 2px 4px gray;
     border: 1px solid #001858;
 }
+.cart h3{
+    text-align:center; 
+    border-bottom: 2px solid#001858;
+    margin-bottom: 2px;
+    padding: 4px;
+}

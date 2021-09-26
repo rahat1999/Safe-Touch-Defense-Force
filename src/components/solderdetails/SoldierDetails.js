@@ -9,7 +9,7 @@ const SoldierDetails = (props) => {
                 <img src={img} alt="SolderImage" />
             </div>
             <div className="deatils-text">
-                <h5><b>Name:</b> {name}</h5>
+                <p style={{ textAlign: "center", marginBottom: "2px" }}><b> {name} </b></p>
                 <p><b>Rank:</b> {rank}</p>
                 <p><b>Skill:</b> {skill}</p>
                 <p><b>Salary:</b> {salary} ৳</p>
