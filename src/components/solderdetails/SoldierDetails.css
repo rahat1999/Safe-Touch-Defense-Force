@@ -1,14 +1,19 @@
 .soldier-details{
     color: #172c66;
-    background-color:#f9f4ef;
+    /* background-color:#8bd3dd; */
+    background-color: #f9f4ef;
     text-align: center;
     padding: 10px;
     box-shadow:1px 1px 5px gray;
     border-radius: 10px;
     border: 1px solid #001858;
 }
+.deatils-text{
+    text-align: left;
+    padding: 5px;
+}
 button{
-    border: 1px solid #8bd3dd;
+    border: 1px solid #001858;
     margin-top: 15px;
     width: 140px;
     height: 25px;
@@ -22,14 +27,17 @@ button:hover{
     background-color: #8bd3dd;
     color: #fffffe;
 }
-img{
+/* .images{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+} */
+.images img{
    margin-bottom:15px ;
    height: 100px;
    width: 100px;
    border-radius: 50%;
    transition: .5s;
-   box-shadow:1px 3px 1px gray;
+   box-shadow:3px 3px 1px gray;
 }
 img:hover{
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 10px gray;
 }

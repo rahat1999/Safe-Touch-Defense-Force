@@ -11,22 +11,21 @@ const Soldiers = () => {
             .then(res => res.json())
             .then(data => setSoldiers(data))
     }, [])
-    // console.log(soldiers)
 
-
+    //---Handale Button---//
     const [displayCart, setDisplayCart] = useState([])
-    // console.log(displayCart[0])
     const handleButton = (event) => {
         const newCart = [...displayCart, event]
-        setDisplayCart(newCart)  // console.log('click korci kaka')  
+        setDisplayCart(newCart)
     }
 
-    //-----adding total slary-----//
+    //-----add total slary-----//
     let total = 0;
     for (const solderSalary of displayCart) {
         total = total + solderSalary.salary;
     }
 
+    // send data to child component frome here//
     return (
         <div className="container">
             <div className="main-container">
@@ -38,6 +37,7 @@ const Soldiers = () => {
                     ></SoldierDetails>)
                 }
             </div>
+            {/* cart item */}
             <div className='cart'>
                 <h4>Total count: {displayCart.length}</h4>
                 <p><b>Tota Pay: {total} $<i class="fas fa-money-bill-alt"></i></b></p>

@@ -2,8 +2,10 @@
     display: flex;
     margin: 20px 40px;
     justify-content: space-evenly;
+    
 }
 .main-container{
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 15px;
