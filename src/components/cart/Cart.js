@@ -5,7 +5,7 @@ const Cart = (props) => {
 
     return (
         <div>
-            <li>{name}</li>
+            <li>{name} <i style={{ color: 'green' }} class="fas fa-check-circle"></i></li>
         </div>
     );
 };

@@ -9,14 +9,15 @@ const SoldierDetails = (props) => {
                 <img src={img} alt="SolderImage" />
             </div>
             <div className="deatils-text">
-                <p style={{ textAlign: "center", marginBottom: "2px" }}><b> {name} </b></p>
+                <p style={{ textAlign: "center", marginBottom: "2px" }}>
+                    <b><i className="fab fa-galactic-senate"></i> {name} </b></p>
                 <p><b>Rank:</b> {rank}</p>
                 <p><b>Skill:</b> {skill}</p>
                 <p><b>Salary:</b> {salary} ৳</p>
                 <p><b>Age:</b> {age}</p>
             </div>
             <button onClick={() => props.handleButton(props.soldier)}
-            ><i class="fab fa-hive"></i> Payment</button>
+            ><i className="fab fa-hive"></i> Hire Now</button>
         </div>
     );
 };

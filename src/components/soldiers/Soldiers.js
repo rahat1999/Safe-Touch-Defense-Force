@@ -40,9 +40,9 @@ const Soldiers = () => {
             {/* Add items cart */}
             <div className='cart'>
                 <h3>
-                    <i class="fas fa-cart-plus"></i> Cart Summary</h3>
-                <p><b>Total count: {displayCart.length}</b></p>
-                <p><b>Tota Payment: {total} $</b></p>
+                    <i className="fas fa-cart-plus"></i> Cart Summary</h3>
+                <p><b><i className="fas fa-user"></i> Soldiers Added: {displayCart.length}</b></p>
+                <p><b><i className="fas fa-money-bill-alt"></i> Tota Payment: {total}</b></p>
 
                 {
                     displayCart.map(cart => <Cart key={cart.id} cart={cart}></Cart>)

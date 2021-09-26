@@ -1,11 +1,12 @@
 .container{
+    padding-top: 20px;
     display: flex;
-    margin: 20px 40px;
     justify-content: space-evenly;
-    
+    background-image: url('./bg02.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 .main-container{
-    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 15px;
@@ -13,7 +14,7 @@
     padding: 10px 0;
 }
 .cart{
-    background-color:#f9f4ef;
+    background-color:#f9f4efdc;
     margin-top: 10px;
     color: #001858;
     line-height: 25px;
@@ -21,12 +22,13 @@
     width: 20%;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px gray;
-    border: 1px solid #001858;
+    box-shadow: 2px 2px 2px gray;
+    /* border: 1px solid #001858; */
 }
 .cart h3{
     text-align:center; 
     border-bottom: 2px solid#001858;
     margin-bottom: 2px;
     padding: 4px;
+    
 }

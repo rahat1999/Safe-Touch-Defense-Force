@@ -5,8 +5,8 @@ const Header = () => {
         <header className="main-header">
             <div className='header-title'>
                 <h1>Bangladeshi Super Soldiers</h1>
-                <p><b>This is a super special defense force of Bangladesh and It's made by All of Bangladeshi the defense force Together</b></p>
-                <h2>Total :10M</h2>
+                <p><b> You can chose any Defense Soldiers To make Your special defense force .</b></p>
+                <h2>Total Budget: 10M</h2>
             </div>
         </header>
     );

@@ -1,7 +1,7 @@
 .soldier-details{
     color: #172c66;
     /* background-color:#8bd3dd; */
-    background-color: #f9f4ef;
+    background-color: #f9f4efd7;
     text-align: center;
     padding: 10px;
     box-shadow:1px 1px 5px gray;
@@ -24,8 +24,9 @@ button{
     
 }
 button:hover{
+    transform: scale(1.1);
     background-color: #8bd3dd;
-    color: #fffffe;
+    color: #272343;
 }
 /* .images{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
@@ -39,5 +40,6 @@ button:hover{
    box-shadow:3px 3px 1px gray;
 }
 img:hover{
+    transform: scale(1.1);
     box-shadow: 5px 5px 10px gray;
 }
